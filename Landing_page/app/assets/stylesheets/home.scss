@@ -70,6 +70,11 @@ margin: 0;
 	margin:0 !important;
 }
 
+#mc-embedded-subscribe1 {
+	margin: auto !important;
+}
+
+
 #mc_embed_signup {
 	background: none !important;
 }
@@ -114,4 +119,24 @@ margin: 0;
 .bg-white {
 	background-color: white;
 	color:black !important;
+}
+
+.center-mailchimp {
+	text-align: center !important;
+}
+
+.mail-pro {
+	width: 50% !important;
+	margin-left:25% !important;
+}
+
+.btn-subcribe-grey {
+font-size: 15px !important;
+padding: 20px 52px !important;
+border-radius: 100px !important;
+color: #fff !important;
+background-color: #676767FF !important;
+text-transform: uppercase;
+text-align: center;
+
 }
