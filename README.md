@@ -28,6 +28,7 @@ Nos deux landings pages sont
 <td>coucou</td>
 <td>coucou</td>
 </tr>
+<th>
 <tr>
 <td>coucou</td>
 <td>coucou</td>
@@ -37,5 +38,6 @@ Nos deux landings pages sont
 <td>coucou</td>
 <td>coucou</td>
 </tr>
+  </th>
 
 
