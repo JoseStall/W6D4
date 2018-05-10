@@ -31,6 +31,5 @@ def get_the_name_of_old_students(array, client)
 end
 
 array = get_the_name_of_old_students(Book_of_old_student,browser)
-array.csv
 
 
