@@ -12,3 +12,10 @@
 * {
 	font-family: 'Roboto', sans-serif;
 }
+
+.section-carousel {
+	.carousel-inner {
+		width: 50% !important;
+		margin: auto;
+	}
+}
