@@ -19,8 +19,9 @@ Nos deux landings pages sont
 * [liens des pros](https://thplille.herokuapp.com/pros)<br />
 * [liens des jeunes](https://thplille.herokuapp.com/hackers)<br />
 
-
-
-
+|Nom|Realistation|Bilan|
+|---|------------|-------|
+|Gauthier|Template et google analytics| Reussi |
+|Guillaume|Twitter et Scrapping | A ecrit la feuille et la roulé en boule dans son sac|
 
 
