@@ -22,4 +22,12 @@ Nos deux landings pages sont
 |Nom|Realistation|Bilan|
 |---|------------|-------|
 |Gauthier|Template et google analytics| Reussi |
-|Guillaume|Twitter et Scrapping | A ecrit la feuille et la roulé en boule dans son sac|
+|Guillaume|Twitter et Scrapping | A ecrit la feuille et l'a roulé en boule dans son sac|
+|Baptiste|Twitter Scrapping Readme | Evidemment que j'ai réussi|
+|Pierre| Layouts et gestion heroku | Reussi |
+|Alexandro|Layouts et pere spirituel du github | Reussi |
+
+Ca a été une journée chill en fait. 
+Meme si à pars faire chier des gens en leurs envoyant un mail ou des tweets on sait pas trop se qu'on a fait.
+
+![On s'en branle](https://developers.giphy.com/static/img/api.c99e353f761d.gif)
