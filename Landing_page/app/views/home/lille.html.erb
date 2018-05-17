@@ -1,0 +1,411 @@
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Lancez vous</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Projet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Bienvenue chez</div>
+        <div class="intro-heading text-uppercase">The Hacking Project</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">En savoir plus</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">The Hacking Project</h2>
+          <h3 class="section-subheading text-muted">C'est une jeune pousse qui souhaite apporter à tous les compétences nécessaires pour le monde de demain. Nos formations se déroulent du lundi au vendredi de 9h à 20h pendant 2 mois 1/2. Chez nous, pas de professeurs, pas de locaux.</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Apprendre à coder</h4>
+          <p class="text-muted">La maîtrise d'au moins un langage de programmation est une compétence valorisée. Apprendre à coder est un énorme plus sur le CV ! Cela démontre une forte capacité d'adaptation. Un employeur saura le voir et le comprendre.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-money fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Gratuitement</h4>
+          <p class="text-muted">Nous avons mis en place un système de "caution". Juridiquement la formation est payante, néanmoins à la fin de la formation vous avez la possibilité de récupérer votre investissement. Nous le faisons pour permettre à ceux qui n'en ont pas les moyens de faire une formation de qualité et exigeante.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+            <i class="fa fa-calendar fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">En 3 mois</h4>
+          <p class="text-muted">La formation se déroule à plein temps pendant 12 semaines, du lundi au vendredi de 9h à 20h minimum. En 3 mois vous connaîtrez les bases du langage Ruby.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Différentes réalisations</h2>
+          <h3 class="section-subheading text-muted">Voici les projets que vous serez capable de réaliser</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="<%= asset_path("portfolio/01-thumbnail.jpg") %>" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Social media</h4>
+            <p class="text-muted">Bot twitter, facebook ...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="<%= asset_path("portfolio/02-thumbnail.jpg") %>" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Ruby, Ruby-on-Rails</h4>
+            <p class="text-muted">Langage de programmation</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="<%= asset_path("portfolio/03-thumbnail.jpg") %>" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Landing pages</h4>
+            <p class="text-muted">Création de site très visuels.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="<%= asset_path("portfolio/04-thumbnail.jpg") %>" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Newsletter</h4>
+            <p class="text-muted">Recrutement, référencement, scrapping ...</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="<%= asset_path("portfolio/05-thumbnail.jpg") %>" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Des sites très complets</h4>
+            <p class="text-muted">Apprenez à refaire Airbnb.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="<%= asset_path("portfolio/06-thumbnail.jpg") %>" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Une communauté</h4>
+            <p class="text-muted">Une formation basée sur le peer-learning</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">En savoir plus</h2>
+            <h3 class="section-subheading text-muted">Saisissez votre email pour vous inscrire à notre newsletter.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <%= form_tag("/home", method: "get") do %>
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <div class="form-group">
+                    <%= email_field_tag :email, nil, placeholder: 'Votre email', class: 'form-control' %>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <%= submit_tag ("Renseigner votre email"), class: 'btn btn-primary btn-xl text-uppercase' %>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; THP Lille 2018</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/Thp_Lille">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/thehackingproject/">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/company/the-hacking-project/?originalSubdomain=fr">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Social media</h2>
+                  <p class="item-intro text-muted">Les bots n'auront plus de secret pour toi.</p>
+                  <img class="img-fluid d-block mx-auto" src="<%= asset_path("portfolio/01-full.jpg") %>" alt="">
+                  <p>Création de bot twitter, de bot facebook, instagram... Tout ceci est au projet de la formation de The Hacking Project. Les différents bots des réseaux sociaux n'auront plus de secrets pour toi, à toi de choisir le meilleur moyen de les utiliser. </p>
+                  
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                  Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Langage de programmation</h2>
+                  <p class="item-intro text-muted">Ruby, ses gems, ses frameworks...</p>
+                  <img class="img-fluid d-block mx-auto" src="<%= asset_path("portfolio/02-full.jpg") %> "alt="">
+                  <p>Au sein de The Hacking Project tu découvriras le monde merveilleux de ruby, un langage de programmation de haut niveau qui te permettra d'écrire du code avec élégance. Tu découvriras le framework ruby-on-rails, qui te permettra de créer rapidement des sites internet très complets.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                  Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Landing pages</h2>
+                  <p class="item-intro text-muted">Création de site vitrine avec call to action.</p>
+                  <img class="img-fluid d-block mx-auto" src="<%= asset_path ("portfolio/03-thumbnail.jpg") %> "alt="">
+                  <p>Tu sauras aussi comment créer en quelques heures seulement des sites vitrines qui en jettent et permettent de promouvoir les choses qui te tiennent à coeur. Tu verras comment te servir de bootstrap pour récupérer des templates très efficacement. Petit indice, le site sur lequel tu te trouves.. Tu sauras le refaire facilement.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                  Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Newsletter</h2>
+                  <p class="item-intro text-muted">Recrutement, référencement ..</p>
+                  <img class="img-fluid d-block mx-auto" src="<%= asset_path("portfolio/04-thumbnail.jpg") %>" alt="">
+                  <p>Tu sauras automatiser le lancement de tes newsletters, les rédiger en responsive, les personnaliser. Tu apprendras aussi à faire du scrapping, afin de récupérer des emails afin de pouvoir recruter de nouvelles personnes pour alimenter tes bases de données, que tu apprendras à créer aussi.</p>
+              
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                  Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Des sites très complets</h2>
+                  <p class="item-intro text-muted">Apprenez à refaire Airbnb.</p>
+                  <img class="img-fluid d-block mx-auto" src="<%= asset_path ("portfolio/05-full.jpg") %>" alt="">
+                  <p>Au bout de ta formation, un projet final t'attend. tu peux venir avec ton idée, ton rêve, et le réaliser au bout de ta formation. Ruby-on-Rails pourra te permettre de donner vie à tes idées. Airbnb, Twitter ... ces sites te parlent? Ils ont été codés avec ton futur langage préféré. Tu sauras manier les bases de données et réussir à réaliser le front-end et le back-end de ton site pour une totale maîtrise.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                 Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">La communauté</h2>
+                  <p class="item-intro text-muted">Une formation basée sur le peer-learning.</p>
+                  <img class="img-fluid d-block mx-auto" src="<%= asset_path("portfolio/06-thumbnail.jpg") %>" alt="">
+                  <p>C'est une grande famille qui comprend les moussaillons, les corsaires, les mentors dans une ambiance bienveillante et accueillante. Vous en profitez et l'animez. C'est cette communauté qui permet à tout le monde de se dépasser et d'acquérir très rapidement les compétences que vous souhaitez développer.</p>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                  Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

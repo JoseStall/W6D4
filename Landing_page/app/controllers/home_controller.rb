@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def pros
   end
+
+  def lille
+  end
 end
