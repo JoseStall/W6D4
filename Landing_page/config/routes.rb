@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'users/unsuscribe_newsletter'
-	root to: 'home#pros'
+	root to: 'home#lille'
   get '/hackers', to: 'home#hackers'
   get '/pros', to: 'home#pros'
   get '/lille', to: 'home#lille'
