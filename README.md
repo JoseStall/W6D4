@@ -11,7 +11,7 @@ pour te lancer dans ta correction!
 Voici les actions menées pour ce projet: 
 
 - nous avons récupéré les 2 LP faites la semaine précédente,
-    -> une visant les pros (https://thplille.herokuapp.com/), 
+    -> une visant les pros (https://thplille.herokuapp.com/pros), 
     -> une visant de jeunes hackers (https://thplille.herokuapp.com/hackers). 
     -> On a complété cela avec une 3e LP visant les lillois (https://thplille.herokuapp.com/lille), dans laquelle on a (galéré pour) intégrer un template gratuit bootstrap. 
 
