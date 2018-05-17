@@ -2,7 +2,7 @@ Projet LandingPages final W7D4 - team Lille - @Guillaume @Kalejo @AmpueroPierre 
 
 Salut noble correcteur, 
 
-N'oublie pas de faire 
+N'oublie pas de faire une fois dans le dossier Landing page
 - bundle install
 - rails db:migrate
 pour te lancer dans ta correction!
