@@ -4,10 +4,10 @@ require 'pry'
 Dotenv.load('.env')
 
 client = Twitter::REST::Client.new do | config |
-  config.consumer_key        = ENV['consuTwitter']
-  config.consumer_secret     = ENV['secretApp']
-  config.access_token        = ENV['persoToken']
-  config.access_token_secret = ENV['secretToken']
+  config.consumer_key        = ENV['consumer_key']
+  config.consumer_secret     = ENV['consumer_secret']
+  config.access_token        = ENV['access_token']
+  config.access_token_secret = ENV['access_token_secret']
 end
 
 
