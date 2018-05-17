@@ -20,7 +20,7 @@ class ContactMailer < ApplicationMailer
             <h2> Salut, comment ça va cette semaine? </h2>
             <p>N'oublie pas d'aller checker le site <strong>de The Hacking Project </strong> pour t'inscrire à la prochaine session, apprendre à coder gratuitement en 3 mois et changer de vie!</p>
 
-            <p> Pour te désinscrire de la newsletter, <a href= 'https://thplille.herokuapp.com/#{user.id}'>clique ici </a>.</p>" 
+            <p> Pour te désinscrire de la newsletter, <a href= 'https://thplille.herokuapp.com/users/unsuscribe/#{user.id}'>clique ici </a>.</p>" 
                         }
         end
             Mailjet::Send.create(messages: @news)
