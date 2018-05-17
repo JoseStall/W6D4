@@ -1,13 +1,44 @@
 
-			<% if @user.save %>
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="/">Thp Lille</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Confirmation
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">désinscrire</a>
 
-			<h1>Félicitations <%= @user.email %>!</h1>
-			<p> Tu es bien inscrit à la newsletter, très bonne journée à toi et à bientôt avec THP Lille Mega Zlatan! </p>
-			<p> Rendez-vous sur <a href="http://thehackingproject.org"> The Hacking Project</a> pour t'inscrire!</p>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-			<% else %>
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text" style="color: white">
+       	<% if @user.save %>
 
-			<h1>T'es déjà inscrit à la newsletter ptit malin <%= @user.email %>!</h1>
-			<p> Tu peux quand même aller sur <a href="http://thehackingproject.org"> The Hacking Project</a> pour t'inscrire à la prochaine session!</p>
+         <div style="background-color: rgba(33,37,41,0.6); margin: 150px auto;">
+		<h1>Félicitations<b> <%= @user.email %>!</b><br>
+		 Tu es bien inscrit à la newsletter, très bonne journée à toi et à bientôt avec THP Lille Mega Zlatan!</h1>
+			<p><b> Rendez-vous sur : <a href="http://thehackingproject.org"> The Hacking Project</a> pour t'inscrire!</p></b>
+		</div>
+      <% else %>
+		<div style="background-color: rgba(33,37,41,0.6); margin: 150px auto;">
+		<h1 >T'es déjà inscrit à la newsletter ptit malin <%= @user.email %>!</h1>
+			<h3><b> Tu peux quand même aller sur <a href="http://thehackingproject.org"> The Hacking Project</a> pour t'inscrire à la prochaine session!</h3></b>
+		</div>
+			<% end %>
 
-			<% end %>            
+      </div>
+    </div>
+  </header>
+
+
+
+
+
